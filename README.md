@@ -18,4 +18,15 @@ I will be going over how the internet works starting with dns
  
  Once the TCP connection is established, the client sends a HTTP ( Hypertext Transfer Protocol) GET request to the server to retrieve the webpage it should display. After the server has sent the response, it closes the TCP connection. If you open the website in your browser again, or if your browser automatically requests something from the server, a new connection is opened which follows the same process described above.
  
+ * Internet routing is done by a router, a router connects devices within a network by forwarding data packets between them. This data can be sent between devices, or from devices to the internet. The router does this by assigning a local IP address to each of the devices on the network.
  
+ * HTTP and HTTPS as well as port 80 and port 443 
+ 
+ HTTP sends data over port 80 and HTTPS uses port 443. No encryption in HTTP, with HTTPS the data is encrypted before sending. HTTP works at the application layer, while HTTPS operates at the transport layer. HTTP URL in your browser's address bar is HTTP:// and the HTTPS URL is HTTPS://.
+ 
+ * REST (Representational state transfer) is a software architectural style that defines a set of constraints to be used for creating Web services. Web services that conform to the REST architectural style, termed RESTful Web services, provide interoperability between computer systems on the Internet.
+ 
+ * Roy Fielding's dissertation elaborates the Representational State Transfer (REST) architectural style for distributed hypermedia systems, describing the software engineering principles guiding REST and the interaction constraints chosen to retain those principles, while contrasting them to the constraints of other architectural styles. REST is a hybrid style derived from several of the network-based architectural stylesand combined with additional constraints that define a uniform connector interface.
+ 
+ 
+  
