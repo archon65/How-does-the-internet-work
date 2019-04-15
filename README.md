@@ -28,5 +28,14 @@ I will be going over how the internet works starting with dns
  
  * Roy Fielding's dissertation elaborates the Representational State Transfer (REST) architectural style for distributed hypermedia systems, describing the software engineering principles guiding REST and the interaction constraints chosen to retain those principles, while contrasting them to the constraints of other architectural styles. REST is a hybrid style derived from several of the network-based architectural stylesand combined with additional constraints that define a uniform connector interface.
  
+ # Linux commands
  
+ * Cd is used to change directory to the current working directory so if I am if I open my program on my home computer i will most likely be on my home directory if I use cd and type cd images as long as that is a directory in my pc I will no longer be in home but in images.
+ 
+ * Ls is used to see any files in a current directory so if you cd images and ls after you should see the img in your computer
   
+  * How to edit a file in VI,To open a file in the vi editor to start editing, simply type in 'vi <filename>' in the command prompt. To quit vi, type one of the following commands in the command mode and press 'Enter' to exit and save type  press Esc and then : (the colon). The cursor will go to the bottom of the screen at a colon prompt. Write your file by entering :w and quit by entering :q . You can combine these to save and exit by entering :wq .
+   
+   * ownwership and giving permissions on files. If you wanted to add or remove permissions to the user, use the command “chmod” with a “+” or “–“, along with the r (read), w (write), x (execute) attribute followed by the name of the directory or file.
+   
+   * 
