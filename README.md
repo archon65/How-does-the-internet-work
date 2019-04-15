@@ -37,7 +37,14 @@ I will be going over how the internet works starting with dns
   * How to edit a file in VI,To open a file in the vi editor to start editing, simply type in 'vi <filename>' in the command prompt. To quit vi, type one of the following commands in the command mode and press 'Enter' to exit and save type  press Esc and then : (the colon). The cursor will go to the bottom of the screen at a colon prompt. Write your file by entering :w and quit by entering :q . You can combine these to save and exit by entering :wq .
    
    * ownwership and giving permissions on files. If you wanted to add or remove permissions to the user, use the command “chmod” with a “+” or “–“, along with the r (read), w (write), x (execute) attribute followed by the name of the directory or file.
+#  FTP, SFTP, and SSH
+   * FTP (file transfer protocol) 
+                                  The File Transfer Protocol is a standard network protocol used for the transfer of computer files between a client and server on a computer network. FTP is built on a client-server model architecture using separate control and data connections between the client and the server.
    
+   * SFTP (SSH File Transfer Protocol)   the SSH File Transfer Protocol is a network protocol that provides file access, file transfer, and file management over any reliable data stream. It was designed by the Internet Engineering Task Force as an extension of the Secure Shell protocol version 2.0 to provide secure file transfer capabilities
+   
+   * SSH stands for  Secure Shell and is a  is a cryptographic network protocol for operating network services securely over an unsecured network. Typical applications include remote command-line login and remote command execution, but any network service can be secured with SSH
+                             
 # UNIX 
    * In 1969-1970, Kenneth Thompson, Dennis Ritchie, and others at AT&T Bell Labs began developing a small operating system on a little-used PDP-7. The operating system was soon christened Unix, a pun on an earlier operating system project called MULTICS. In 1972-1973 the system was rewritten in the programming language C, an unusual step that was visionary: due to this decision, Unix was the first widely-used operating system that could switch from and outlive its original hardware. Other innovations were added to Unix as well, in part due to synergies between Bell Labs and the academic community. In 1979, the “seventh edition” (V7) version of Unix was released, the grandfather of all extant Unix systems.
      
